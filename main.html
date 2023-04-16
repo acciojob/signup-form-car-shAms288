@@ -8,29 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
-		<label for="name">Name</label>
-		<input type="text" required><br>
+	<form method="post">
+		<label for="name" >Name</label>
+		<input type="text" id="name" placeholder="Name" required><br>
 		<label for="email">Email</label>
-		<input type="email" required><br>
+		<input type="email" id="email" placeholder="Email" required><br>
 		<label for="name">Gender</label>
-		<input type="radio" name="gender" required>Male
-		<input type="radio" name="gender" required>Female<br>
+		<input type="radio" name="gender" id="gender_m" required>Male
+		<input type="radio" name="gender" id="gender_f" required>Female<br>
 		<label for="cars">Car Brands</label>
-		<select>
+		<select id="cars">
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
 		</select><br>
 		<label for=age>Age</label>
-		<input type="number" required><br>
+		<input type="number" id="age" placeholder="Age" required><br>
 		<label type="dob">DOB</label>
-		<input type="date" required><br>
+		<input type="date" id="dob" required><br>
 		<label for=PhoneNumber>Phone Number</label>
-		<input type="number" required><br>
+		<input type="number" id="tel" required><br>
 		<label for="password">Password</label>
-		<input type="password" required><br>
-		<input type="checkbox" required>I agree to the TOS.<br>
+		<input type="password" id="password" placeholder="Password" required><br>
+		<input type="checkbox" id="tos" required>I agree to the TOS.<br>
 		<input type="submit">
 		
 	</form>
